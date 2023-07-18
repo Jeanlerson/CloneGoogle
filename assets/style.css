@@ -33,6 +33,7 @@ nav {
 .name_opition {
     text-decoration: none;
     color: #5f6368;
+    font-size: 15px;
 }
 .name_opition:hover {
     border-bottom: 2px solid #5f6368;
@@ -59,4 +60,8 @@ nav {
 .photo_profile {
     margin-top: 5px;
     margin-right: 15px;
+}
+
+.photo_google img {
+    width: 400px;
 }
