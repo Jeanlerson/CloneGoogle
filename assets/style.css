@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 nav {
@@ -25,4 +26,37 @@ nav {
 
 .margen {
     margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.name_opition {
+    text-decoration: none;
+    color: #5f6368;
+}
+.name_opition:hover {
+    border-bottom: 2px solid #5f6368;
+}
+
+#option_gmail {
+    margin-right: 15px;
+}
+
+#squares_small {
+    margin-top: 17px;
+    padding: 10px;
+    height: 20px;
+    margin-right: 0px;
+}
+#squares_small:hover {
+    background-color: #dbe0e6;
+    border-radius: 20px;
+}
+
+.photo_profile img {
+    width: 43px;
+}
+.photo_profile {
+    margin-top: 5px;
+    margin-right: 15px;
 }
