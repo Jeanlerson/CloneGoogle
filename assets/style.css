@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -113,4 +117,45 @@ nav {
 
 .bar_search {
     margin-right: 15px;
+}
+
+footer {
+    background-color: #e8e9ea;
+    color: #70757a;
+}
+
+.footer_country {
+    padding: 18px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+}
+
+.footer_options {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #c7c8ca;
+}
+
+.footer_actions {
+    padding: 18px;
+    padding-top: 12px;
+}
+
+.footer_actions a {
+    text-decoration: none;
+    color: #70757a;
+    margin: 10px;
+}
+.footer_actions a:hover {
+    border-bottom: 1px solid #70757a;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;   
+}
+.container section {
+    flex: 1 1 0;
 }
