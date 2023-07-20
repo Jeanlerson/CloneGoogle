@@ -154,8 +154,89 @@ footer {
 
 .container {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;  
 }
 .container section {
     flex: 1 1 0;
+}
+
+@media(max-width: 700px) {
+    .photo_google img {
+        width: 300px;
+    }
+
+    .search_tab input{
+        width: 450px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 500px) {
+    .search_tab input{
+        width: 350px;
+        padding: 7px;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 14px;
+    }
+
+    .interaction_bars a {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 11px;
+    }
+
+    .footer_actions a {
+        margin: 5px;
+    }
+
+    .footer_country {
+        padding: 12px;
+        padding-bottom: 9px;
+        padding-left: 17px;
+    }
+
+    .footer_actions {
+        padding: 12px;
+        padding-top: 9px;
+    }
+
+    .name_opition {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 376px) {
+    .photo_google img {
+        width: 250px;
+    }
+
+    .search_tab input{
+        width: 200px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .footer_actions a {
+        margin: 2px;
+    }
+
+    .interaction_bars a {
+        font-size: 10px;
+    }
+
+    .bar_styling {
+        padding: 5px 10px;
+    }
+
+    footer {
+        font-size: 9px;
+    }
 }
