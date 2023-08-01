@@ -1,1 +1,1 @@
-Clone do Google apenas para prática
+Clone do Google apenas para prática de HTML E CSS
